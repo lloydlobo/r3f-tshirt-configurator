@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:relaxed": "npx tsc --noUnusedLocals --noUnusedParameters --strict false && npx vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
