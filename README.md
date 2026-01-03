@@ -1,4 +1,23 @@
-# React + TypeScript + Vite
+# r3f-tshirt-configurator
+
+Copied and modified from [codesandbox: drcmda/T-Shirt configurator].
+
+## unimplemented
+
+- [ ] loading state of non-cached glb model
+
+## screenshots
+
+<img width="1028" height="970" alt="image" src="https://github.com/user-attachments/assets/82220596-3ac3-45d0-a874-78e946253a8c" />
+<img width="1028" height="970" alt="image" src="https://github.com/user-attachments/assets/e39cedab-6d03-4a5b-ab4c-0f80755fd73f" />
+
+## misc
+
+<details>
+
+<summary>Expand</summary>
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -7,13 +26,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+### React Compiler
 
 The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
 Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
@@ -73,3 +92,9 @@ export default defineConfig([
   },
 ])
 ```
+
+</details>
+
+<!-- Links -->
+
+[codesandbox: drcmda/T-Shirt configurator]: https://codesandbox.io/p/sandbox/t-shirt-configurator-ioxywi
